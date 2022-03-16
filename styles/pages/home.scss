@@ -1,0 +1,164 @@
+.home {
+
+}
+
+.home__wrapper {
+  background-color: $color-lotion;
+}
+
+.home__section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__top {
+  flex: 2;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__top__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  flex: 2;
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.home__top__left__text {
+  font-family: 'Roboto';
+  margin: 1.5rem 2rem;
+}
+
+.home__top__left__text {
+}
+
+.home__top__left__text {
+
+}
+
+.home__top__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  text-align: end;
+  flex: 1;
+  border-left: 2px solid $color-charlestone-green;
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.home__top__right__links {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  margin: 1.5rem 2rem;
+}
+
+.home__top__right__link {
+
+}
+
+.home__top__right__link {
+
+}
+
+.home__top__right__text {
+  text-align: end;
+  margin: 1.5rem 2rem;
+}
+
+.home__bottom {
+  flex: 1;
+}
+
+.home__bottom__title {
+  font-family: $font-six-caps;
+  font-size: 51rem;
+  color: $color-charlestone-green;
+}
+
+
+.works__section {
+  background-color: $color-charlestone-green;
+  height: 100vh;
+  color: $color-lotion;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works__left {
+  font-family: $font-six-caps;
+  font-size: 51rem;
+  display: flex;
+  align-items: center;
+  height: 90rem;
+}
+
+.works__left__title {
+  line-height: 46rem;
+}
+
+.works__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  font-family: 'Roboto', 'sans-serif';
+  height: 92rem;
+}
+
+.works__right__top {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: $color-gray-x11;
+  margin-top: 2rem;
+}
+
+.works__right__top__text {
+
+}
+
+.works__right__bottom {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.works__right__bottom__item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid $color-lotion;
+  color: $color-gray-x11;
+  padding: 1rem;
+}
+
+.works__right__bottom__item__index {
+  font-size: 1.4rem;
+  font-style: italic;
+  flex: 1;
+}
+
+.works__right__bottom__item__title {
+  font-size: 8rem;
+  font-family: $font-six-caps;
+  color: $color-bright-gray;
+  flex: 9;
+}
+
+.works__right__bottom__item__category {
+  font-size: 1.4rem;
+  flex: 1;
+  justify-self: flex-end;
+}
+
+

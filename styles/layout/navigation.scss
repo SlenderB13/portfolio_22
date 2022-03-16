@@ -1,0 +1,19 @@
+.nav {
+  height: 5rem;
+  width: 100%;
+  font-family: $font-six-caps;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: $color-lotion;
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.nav__link {
+  color: $color-charlestone-green;
+  text-decoration: none;
+  list-style: none;
+  margin: auto 1rem;
+}

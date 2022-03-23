@@ -161,4 +161,70 @@
   justify-self: flex-end;
 }
 
+.contact__section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: $font-six-caps;
+  color: $color-charlestone-green;
+
+  padding: 1rem;
+}
+
+.contact__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 2;
+
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.contact__top__subtitle {
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+.contact__top__title {
+  font-size: 30rem;
+}
+
+.contact__center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.contact__center__text {
+  font-size: 12rem;
+}
+
+.contact__center__link {
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+}
+
+.contact__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+
+  border-bottom: 2px solid $color-charlestone-green;
+}
+
+.contact__bottom__text {
+  font-size: 12rem;
+}
+
+.contact__bottom__link {
+  font-family: 'Roboto';
+  font-size: 1.8rem;
+}
 
